@@ -1,1 +1,192 @@
 @charset "utf-8";
+
+.header{
+  background-color: #fff;
+  padding: 15px 0;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+.header nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.logo a{
+  color: #777;
+}
+
+.button a{
+  color: #fff;
+  background-color: #6ba7eb;
+  padding: 12px 14px;
+  font-size: 12px;
+  text-decoration: none;
+  transition: 3s;
+}
+
+.button a:hover{
+  background-color: #333;
+}
+
+.keyvisual{
+  background: url(../img/keyvisual/keyvisual.jpg);
+  padding: 400px 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.ttl{
+  text-align: center;
+}
+
+.ttl h2{
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  margin-bottom: 30px;
+}
+
+.ttl p{
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.work{
+  background: #e3f2fd;
+  padding-top: 50px;
+}
+
+.flex{
+  display: flex;
+  text-align: center;
+}
+
+.work-img img{
+  width: 275px;
+}
+
+.column{
+  width: 825px;
+}
+
+.column h2{
+  font-size: 40px;
+  letter-spacing: 10px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.column p{
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+}
+
+.skills{
+  background: #fff;
+}
+
+.concept{
+  padding: 50px 0;
+}
+
+.concept h2{
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 100px;
+  padding-bottom: 70px;
+}
+
+.container img{
+  width: 300px;
+  height: 300px;
+  opacity: 0.7
+}
+
+.container:hover img{
+  opacity: 1.0;
+}
+
+
+.plan{
+  background: #d0dfea;
+}
+
+.table_box th,
+.table_box td{
+  border-left: 2px solid #fff;
+  padding: 10px;
+}
+
+.table_area{
+  padding-bottom: 50px;
+}
+
+.table_box{
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+.thead tr th{
+  background: #6ba7eb;
+}
+
+.table_box tr:nth-child(odd){
+  background: #e0efff;
+}
+
+.table_box tr:nth-child(even){
+  background: #f9f9f9;
+}
+
+.sns{
+  background: #e3f2fd;
+  padding: 200px 0;
+  margin: 0 auto;
+}
+
+.link{
+  text-align: center;
+}
+
+.link i{
+  width: 185px;
+  padding: 25px 0;
+  color: #8c8c8c;
+  overflow: hidden;
+  font-size: 40px;
+}
+
+.link i:hover{
+  color: #fff;
+  opacity: 5s;
+}
+
+.footer{
+  background: #cfd8dc;
+}
+
+.copy{
+  text-align: right;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
