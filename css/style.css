@@ -72,11 +72,13 @@
 }
 
 .work-img img{
-  width: 275px;
+  width: 250px;
 }
 
 .column{
-  width: 825px;
+  max-width: 60%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .column h2{
@@ -90,6 +92,7 @@
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
+
 }
 
 .skills{
@@ -132,6 +135,11 @@
 .table_box td{
   border-left: 2px solid #fff;
   padding: 10px;
+  line-height: 26px;
+}
+
+th:first-child {
+  border-left: none;
 }
 
 .table_area{
