@@ -198,3 +198,106 @@ th:first-child {
   padding-top: 20px;
   padding-bottom: 25px;
 }
+
+
+@media screen and (max-width: 1199px){
+  .inner{
+    width: 97%;
+    display: block;
+  }
+  .keyvisual{
+    padding: 250px 0;
+  }
+  .work{
+    padding: 50px 0;
+    width: 100%;
+  }
+  .column{
+    margin: 0 auto;
+  }
+  .work-img img{
+    width: 275px;
+  }
+  .container{
+    display: block;
+    text-align: center;
+  }
+  .item03{
+    padding-bottom: 80px;
+  }
+}
+
+
+@media screen and (max-width: 767px){
+  .inner{
+    width: 97%;
+    display: block;
+  }
+
+  .keyvisual{
+    padding: 200px 0;
+  }
+
+  .button{
+    display: none;
+  }
+
+  .hamburger-menu{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 2px #cfd8dc solid;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .line{
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    right: 5px;
+    top: 10px;
+    background-color: #cfd8dc;
+    transition: ease-in-out 0.5s;
+  }
+
+  .line:nth-child(2){
+    top: 25px;
+  }
+
+  .line:nth-child(3){
+    top: 40px;
+  }
+
+  .ttl h2{
+    font-size: 40px;
+  }
+
+  .ttl p{
+    font-size: 30px;
+  }
+
+  .work{
+    width: 100%;
+  }
+
+  .table_box th{
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .table_box td{
+    font-size: 12px;
+  }
+
+  .sns{
+    padding: 50px 0;
+    width: 100%
+  }
+
+  .link a{
+    display: block;
+    padding: 50px 15px;
+  }
+}
